@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
   
 setuptools.setup( 
     name="boxcounting", 
-    version="1.0.0.0", 
+    version="1.0.0.1", 
     author="Abhishek Harikrishnan", 
     author_email="abhishek.harikrishnan@fu-berlin.de", 
     packages=["boxcounting"], 
