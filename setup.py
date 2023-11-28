@@ -13,7 +13,7 @@ setuptools.setup(
     fractal (box-counting) dimension of 1D, 2D or 3D data", 
     long_description=description, 
     long_description_content_type="text/markdown", 
-    url="", 
+    url="https://github.com/Phoenixfire1081/fractaldimension", 
     license='MIT', 
     python_requires='>=3.8', 
     install_requires=[] 
