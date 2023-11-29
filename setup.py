@@ -5,10 +5,12 @@ with open("README.md", "r") as fh:
   
 setuptools.setup( 
     name="boxcounting", 
-    version="1.0.0.1", 
+    version="1.0.0.2", 
     author="Abhishek Harikrishnan", 
     author_email="abhishek.harikrishnan@fu-berlin.de", 
     packages=["boxcounting"], 
+    package_dir={'boxcounting': 'boxcounting/boxcounting'},
+    package_data={'boxcounting': ['*.bin', 'runTests.py']},
     description="A python port of the MATLAB boxcount to calculate the \
     fractal (box-counting) dimension of 1D, 2D or 3D data", 
     long_description=description, 
