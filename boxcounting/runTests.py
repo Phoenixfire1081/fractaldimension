@@ -1,8 +1,6 @@
 import array
 import numpy as np
-import sys
-sys.path.append('../src/boxcounting/')
-from box_count import boxCount
+from boxcounting import boxCount
 import unittest
 
 #---------------------------------------------------------------------#

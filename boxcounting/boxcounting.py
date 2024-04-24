@@ -187,6 +187,6 @@ class boxCount:
 			print('Exceeded 3 dimensions. Not implemented.')
 			raise NotImplementedError
 		
-		df = - np.gradient(np.log(n)) / np.gradient(np.log(r))
+		df = - np.diff(np.log(n)) / np.diff(np.log(r))
 		
 		return n, r, df
