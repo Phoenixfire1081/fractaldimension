@@ -1,5 +1,7 @@
 # Calculate fractal (box-counting) dimension
 
+This page has been setup to support the preprint titled **_Geometry and organization of coherent structures in stably stratified atmospheric boundary layers_** which can be found in arXiv: https://arxiv.org/abs/2110.02253
+
 This is a direct port of the MATLAB boxcount code developed by F. Moisy. It calculates the box-counting dimension of a given d-dimensional array.
 
 See the MATLAB code here: https://de.mathworks.com/matlabcentral/fileexchange/13063-boxcount.
