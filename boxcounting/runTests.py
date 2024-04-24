@@ -7,7 +7,7 @@ import unittest
 
 # Author: Abhishek Harikrishnan
 # Email: abhishek.harikrishnan@fu-berlin.de
-# Last updated: 28-11-2023
+# Last updated: 24-04-2024
 # Tests to ensure correct working of boxCount python module
 
 #---------------------------------------------------------------------#
